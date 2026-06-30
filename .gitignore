@@ -1,0 +1,26 @@
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# Archivos compilados de Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Artefactos del proyecto (pesados o regenerables)
+models/          # pesos entrenados
+logs/            # registros de TensorBoard
+*.h5             # formato de modelos de Keras
+*.keras
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Configuración de editores
+.vscode/
+.idea/
+
+# Secretos (por si acaso)
+.env
+*.key
